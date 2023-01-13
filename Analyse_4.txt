@@ -1,0 +1,20 @@
+#separator:tab
+#html:true
+développement limité de&nbsp;\(e^x\)	\(1+x+\frac{x^2}{2}+\dots+\frac{x^n}{n!}+o(x^n)\)
+développement limité de&nbsp;\(sin(x)\)	\(x-\frac{x^3}{3!}+\dots+(-1)^n\frac{x^{2n+1}}{(2n+1)!}+o(x^{2n+2})\)
+développement limité de&nbsp;\(cos(x)\)	\(1-\frac{x^2}{2}+\frac{x^4}{4!}+\dots+(-1)^n\frac{x^{2n}}{(2n)!}+o(x^{2n+1})\)
+développement limité de&nbsp;\(\frac{1}{1-x}\)	\(1+x+x^2+\dots+x^n+o(x^n)\)
+développement limité de&nbsp;\(\frac{1}{1+x}\)	\(1-x+x^2-x^3+\dots+(-1)^n x^n + o(x^n)\)
+développement limité de&nbsp;\((1+x)^\alpha\)	\(1+\alpha x+\frac{\alpha(\alpha -1)}{2}x^2+\dots+\frac{\alpha(\alpha -1)\dots(\alpha-n+1)}{n!}x^n+o(x^n)\)
+développement limité de&nbsp;\(ln(1-x)\)	\(-x-\frac{x^2}{2}-\dots-\frac{x^n}{n}+o(x^n)\)
+développement limité de&nbsp;\(ln(1+x)\)	\(x-\frac{x^2}{2}+\dots+(-1)^{n-1}\frac{x^n}{n}+o(x^n)\)
+Qu'est ce que le reste&nbsp;\(R_n\)&nbsp;de la série&nbsp;\(\sum u_n\)?	La suite&nbsp;\(R_N = \overset{\infty}{\underset{n=N+1}\sum}u_n\)
+\( \sum u_n\)converge. Que peut-on dire de&nbsp;\(u_n\)	\(\sum u_n \text{CV}\Longrightarrow u_n \text{CV}\)
+Soit&nbsp;\(\lambda\in\mathbb{K}\).&nbsp;\(\sum u_n\)CV et&nbsp;\(\sum v_n\)CV. Que dire de&nbsp;\(\sum(\lambda u_n+v_n)\)?	\(\sum(\lambda u_n+v_n)\)CV car les séries convergentes forment un espace vectoriel
+Énoncer la comparaison série intégrale	Si&nbsp;\(u_n = f(n)\)&nbsp;APCR&nbsp;\(n_0\)&nbsp;et\(f\)&nbsp;positive décroissante continue sur&nbsp;\([n_0,+\infty[\). Alors,<br>\(\sum u_n \text{CV} \Longleftrightarrow \int_{n_0}^{+\infty}f(t)dt\)
+lien entre la convergence de&nbsp;\(\sum |u_n|\)&nbsp;et de&nbsp;\(\sum u_n\)	&nbsp;\(\sum |u_n|\)CV\(\Longrightarrow \sum u_n\)CV
+Théorème de comparaison quand&nbsp;\(u_n\leq v_n\)	Si&nbsp;\(u_n\geq0\),&nbsp;\(v_n\geq0\)&nbsp;et&nbsp;\(u_n\leq v_n\)&nbsp;APCR, Alors,<br>\(\sum v_n\text{CV}\Longrightarrow \sum u_n\text{CV}\)
+Théorème de comparaison quand&nbsp;\(u_n=o( v_n)\)	Si&nbsp;\(u_n\geq0\),&nbsp;\(v_n\geq0\)&nbsp;et&nbsp;\(u_n = o(v_n)\)&nbsp;APCR, Alors,<br>\(\sum v_n\text{CV}\Longrightarrow \sum u_n\text{CV}\)
+Théorème de comparaison quand&nbsp;\(u_n \sim v_n\)	Si&nbsp;\(u_n\geq0\),&nbsp;\(v_n\geq0\)&nbsp;et&nbsp;\(u_n \sim v_n\)&nbsp;APCR, Alors,<br>\(\sum v_n\text{CV}\Longleftrightarrow \sum u_n\text{CV}\)
+critère de d'Alembert pour la convergence des séries	Si&nbsp;\(\left| \frac{u_{n+1}}{u_n}\right|\rightarrow l\). Si&nbsp;\(l&lt;1,\sum u_n\)CV. Si&nbsp;\(l&gt;1,\sum u_n\)DV.&nbsp;
+critère de Cauchy pour la convergence des séries	Si&nbsp;\(\left|u_n\right|^{\frac{1}{n}}\rightarrow l\). Si&nbsp;\(l&lt;1,\sum u_n\)CV. Si&nbsp;\(l&gt;1,\sum u_n\)DV.&nbsp;
